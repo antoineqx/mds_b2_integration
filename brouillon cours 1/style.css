@@ -1,0 +1,45 @@
+.carre {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+
+    transition: all 1s ease-in-out;
+    
+    
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+}
+
+h1 {
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 2s;
+    
+}
+
+body:hover .carre{
+    
+    background-color: blueviolet;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+body:hover h1 {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+

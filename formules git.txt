@@ -1,0 +1,16 @@
+Formules git :
+
+
+mettre les objets dans des cartons :
+
+git add --all
+
+
+mettre dans le carton et lui donner un nom :
+
+git commit -m "page d'accueil"
+
+
+envoyer les cartons dans un local :
+
+git push

@@ -1,0 +1,30 @@
+.conteneur {
+    display: flex;
+    flex-direction: column;
+}
+
+.carre {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+.carrebleu {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrebleu {
+        background-color: blue;  
+    }
+
+    .conteneur {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
