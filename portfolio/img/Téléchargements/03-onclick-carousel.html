@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animations Javascript</title>
+    </head>
+    <body>
+
+        <img id="monImage" src="imgs/a.jpg" style="height: 200px; width: 300px;" title="Une tortue" />
+
+        <script>
+
+            let monImage = document.querySelector("#monImage");
+            monImage.addEventListener("click", fMonImage);
+
+            function fMonImage() {
+                
+                let srcMonImage = monImage.getAttribute("src");
+                console.log(srcMonImage);
+
+                switch(srcMonImage) {
+                    case "imgs/a.jpg" :
+                        monImage.src = "imgs/b.jpg";
+                    break;
+                    case "imgs/b.jpg" :
+                        monImage.src = "imgs/c.jpg";
+                    break;
+                    case "imgs/c.jpg" :
+                        monImage.src = "imgs/d.jpg";
+                    break;
+                    case "imgs/d.jpg" :
+                        monImage.src = "imgs/e.jpg";
+                    break;
+                    case "imgs/e.jpg" :
+                        monImage.src = "imgs/a.jpg";
+                    break;
+                }
+            }
+    
+        </script>
+
+    </body>
+</html>

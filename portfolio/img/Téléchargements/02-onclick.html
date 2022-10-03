@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animations Javascript</title>
+    </head>
+    <body>
+
+        <h1>Mon titre H1</h1>
+        <div>
+            <img id="monImage" src="imgs/a.jpg" style="height: 200px; width: 300px;" title="Test" />
+        </div>
+        <button id="changerImg">Changer d'image</button>
+
+        <hr>
+
+        <script>
+            let monBouton = document.getElementById("changerImg");
+            monBouton.addEventListener("click", fMonBouton);
+
+            function fMonBouton() {
+                let monImg = document.getElementById("monImage");
+                monImg.src = "imgs/b.jpg";
+            }
+    
+        </script>
+
+    </body>
+</html>
