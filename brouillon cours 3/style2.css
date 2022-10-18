@@ -1,0 +1,14 @@
+body div {
+  background-color: white;
+  padding: 16px;
+  border: solid 2px red;
+  margin: 5px;
+}
+.bloc button,
+.bloc h2,
+.bloc p {
+  font-size: 20px;
+}
+.bloc .colorbutton {
+  background-color: green;
+}

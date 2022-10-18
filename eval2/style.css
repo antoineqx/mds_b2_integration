@@ -1,0 +1,228 @@
+.boutonvert {
+  background-color: #C1F7D5;
+  padding: 15px 15px;
+  border-radius: 3ch;
+}
+.boutoncss {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  font-size: small;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 2099px;
+  background-color: #354463;
+}
+.menu {
+  width: 1440px;
+  height: 128px;
+  background-color: white;
+  display: flex;
+}
+.menu .carrelogo {
+  width: 160px;
+  height: 63px;
+  margin-left: 160px;
+  padding-top: 34px;
+}
+.menu .navbar {
+  margin-left: 224px;
+  padding-top: 55px;
+  color: black;
+}
+.menu .spanmenu1 {
+  margin-right: 129px;
+}
+.menu .spanmenu2 {
+  margin-right: 114px;
+}
+.menu .spanmenu3 {
+  margin-right: 72px;
+}
+.menu .spanmenu4 {
+  background-color: #C1F7D5;
+  padding: 15px 15px;
+  border-radius: 3ch;
+}
+.conteneur {
+  width: 1440px;
+  height: 672px;
+  background-image: linear-gradient(rgba(193, 247, 213, 0.6), rgba(193, 247, 213, 0.6)), url("imgmontage.jpg");
+}
+.conteneur .boutonbleu {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  font-size: small;
+  background-color: #354463;
+  color: white;
+  margin: 112px 0px 0px 224px;
+  position: absolute;
+}
+.conteneur .carreblanc {
+  width: 544px;
+  height: 416px;
+  background-color: white;
+  margin-left: 160px;
+  margin-top: 128px;
+}
+.conteneur .carreblanc h1 {
+  color: #354463;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+}
+.conteneur .carreblanc p {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+.boutonbleu2 {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  font-size: small;
+  background-color: #354463;
+  color: white;
+  position: absolute;
+  margin: 777px 0px 0px 640px;
+}
+.conteneur2 {
+  width: 1440px;
+  height: 240px;
+  background-color: #C1F7D5;
+  display: flex;
+}
+.conteneur2 .bloc {
+  color: black;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 160px;
+  margin-top: 75px;
+}
+.conteneur2 .bloc .texte1 {
+  width: 232px;
+  height: 89px;
+  margin-right: 56px;
+}
+.conteneur2 .bloc .texte2 {
+  width: 232px;
+  height: 89px;
+  margin-right: 56px;
+}
+.conteneur2 .bloc .texte3 {
+  width: 232px;
+  height: 89px;
+  margin-right: 56px;
+}
+.conteneur2 .bloc .texte4 {
+  width: 232px;
+  height: 89px;
+}
+.conteneur2 .bloc h2 {
+  margin: 0;
+  padding: 0;
+}
+.conteneur2 .bloc p {
+  margin: 0;
+  padding: 0;
+}
+.conteneur3 {
+  width: 1440px;
+}
+.conteneur3 .boutonblanc {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  font-size: small;
+  background-color: white;
+  color: #354463;
+  margin-left: 160px;
+  margin-top: 88px;
+  position: absolute;
+}
+.conteneur3 h2 {
+  color: white;
+  font-size: 3em;
+  margin-left: 160px;
+  margin-top: 168px;
+  width: 1122px;
+}
+.conteneur3 .conteneur4 {
+  width: 1122px;
+  height: 560px;
+  display: flex;
+  margin-left: 160px;
+}
+.conteneur3 .conteneur4 .pict {
+  width: 100%;
+  height: 100%;
+}
+.conteneur3 .conteneur4 .img1 {
+  width: 320px;
+  height: 224px;
+  margin-top: 44px;
+  margin-left: 32px;
+  position: absolute;
+}
+.conteneur3 .conteneur4 .img2 {
+  width: 320px;
+  height: 224px;
+  margin-top: 44px;
+  margin-left: 416px;
+  position: absolute;
+}
+.conteneur3 .conteneur4 .img3 {
+  width: 320px;
+  height: 224px;
+  margin-top: 44px;
+  margin-left: 800px;
+  position: absolute;
+}
+.conteneur3 .conteneur4 .rectblanc1 {
+  width: 320px;
+  height: 528px;
+  background-color: white;
+  margin-right: 64px;
+  margin-top: 76px;
+}
+.conteneur3 .conteneur4 .rectblanc2 {
+  width: 320px;
+  height: 528px;
+  background-color: white;
+  margin-right: 64px;
+  margin-top: 76px;
+}
+.conteneur3 .conteneur4 .rectblanc3 {
+  width: 320px;
+  height: 528px;
+  background-color: white;
+  margin-top: 76px;
+}
+.conteneur3 .conteneur4 h3 {
+  margin-top: 253px;
+  text-align: justify;
+  margin-left: 32px;
+}
+.conteneur3 .conteneur4 p {
+  margin-left: 32px;
+  padding-bottom: 32px;
+}
+.conteneur3 .conteneur4 .btn {
+  background-color: #C1F7D5;
+  padding: 15px 15px;
+  border-radius: 3ch;
+  margin-left: 32px;
+}
+@media screen and (max-width: 428px) {
+  .menu {
+    width: 428px;
+  }
+  .conteneur {
+    width: 428px;
+  }
+}

@@ -2,15 +2,50 @@ Formules git :
 
 
 mettre les objets dans des cartons :
-
 git add --all
 
 
 mettre dans le carton et lui donner un nom :
-
 git commit -m "page d'accueil"
 
 
 envoyer les cartons dans un local :
-
 git push
+
+*********************************************************************************************
+
+connaitre l'état de nos fichiers :
+git status
+
+connaitre les différences :
+git diff
+
+chemin :
+cd
+cd Desktop/
+
+créer un dossier :
+mkdir ...
+
+pour initialiser :
+git init
+
+git remote -v
+récupérer l'url du projet : git fetch
+envoyer des choses : git push
+
+pour switch de branch et kill des fichiers :
+git checkout
+
+pour créer une branch :
+git checkout ...
+
+donne la liste des commit :
+git log --oneline
+
+revenir en arrière :
+cd ../
+
+
+
+

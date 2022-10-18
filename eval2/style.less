@@ -1,0 +1,272 @@
+@width: 1440px;
+@colorgreen: #C1F7D5;
+
+.boutonvert {
+    background-color: #C1F7D5;
+    padding: 15px 15px;
+    border-radius: 3ch;
+}
+.boutoncss {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: small;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 2099px;
+    background-color: #354463;
+}
+
+.menu {
+    width: @width;
+    height: 128px;
+    background-color: white;
+    display: flex;
+
+    .carrelogo {
+        width: 160px;
+        height: 63px;
+        margin-left: 160px;
+        padding-top: 34px;
+    }
+
+    .navbar {
+        margin-left: 224px;
+        padding-top: 55px;
+        color: black;
+    }
+
+        .spanmenu1 {
+            margin-right: 129px;
+        }
+        .spanmenu2 {
+            margin-right: 114px;
+        }
+        .spanmenu3 {
+            margin-right: 72px;
+        }
+        .spanmenu4 {
+            .boutonvert();
+        }
+
+}
+
+.conteneur {
+    width: @width;
+    height: 672px;
+    
+    
+    background-image: linear-gradient(
+            rgba(193, 247, 213, 0.6), 
+            rgba(193, 247, 213, 0.6)
+        ),
+        url("./imgmontage.jpg");
+
+        .boutonbleu {
+            .boutoncss();
+            background-color: #354463;
+            color: white;
+            margin: 112px 0px 0px 224px;
+            position: absolute;
+            
+        }
+
+        .carreblanc {
+            width: 544px;
+            height: 416px;
+            background-color: white;
+            margin-left: 160px;
+            margin-top: 128px;
+
+            h1 {
+                color: #354463;
+                font-size: 2.5em;
+                display: flex;
+                justify-content: center;
+                
+                
+            }
+            p {
+                color: gray;
+                display: flex;
+                justify-content: center;
+            }
+        }
+}
+
+.boutonbleu2 {
+    .boutoncss();
+    background-color: #354463;
+    color: white;
+    position: absolute;
+    margin: 777px 0px 0px 640px;      
+}
+
+.conteneur2 {
+    width: @width;
+    height: 240px;
+    background-color: @colorgreen;
+    display: flex;
+
+    .bloc {
+        color: black;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-left: 160px;
+        margin-top: 75px;
+     
+
+        .texte1 {
+            width: 232px;
+            height: 89px;
+            margin-right: 56px;
+        }
+        .texte2 {
+            width: 232px;
+            height: 89px;
+            margin-right: 56px;
+        }
+        .texte3 {
+            width: 232px;
+            height: 89px;
+            margin-right: 56px;
+        }
+        .texte4 {
+            width: 232px;
+            height: 89px;
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}
+
+.conteneur3 {
+    width: @width;
+
+    .boutonblanc {
+        .boutoncss();
+        background-color: white;
+        color: #354463;
+        margin-left: 160px;
+        margin-top: 88px;
+        position: absolute;
+    }
+
+    h2 {
+        color: white;
+        font-size: 3em;
+        margin-left: 160px;
+        margin-top: 168px;
+        width: 1122px;
+    }
+
+    .conteneur4 {
+        width: 1122px;
+        height: 560px;
+        display: flex;
+        margin-left: 160px;
+
+        .pict {
+            width: 100%;
+            height: 100%;
+        }
+
+        .img1 {
+            width: 320px;
+            height: 224px;
+            margin-top: 44px;
+            margin-left: 32px;
+            position: absolute;
+        }
+        .img2 {
+            width: 320px;
+            height: 224px;
+            margin-top: 44px;
+            margin-left: 416px;
+            position: absolute;
+        }
+        .img3 {
+            width: 320px;
+            height: 224px;
+            margin-top: 44px;
+            margin-left: 800px;
+            position: absolute;
+        }
+
+        .rectblanc1 {
+            width: 320px;
+            height: 528px;
+            background-color: white;
+            margin-right: 64px;
+            margin-top: 76px;
+            
+        }
+        .rectblanc2 {
+            width: 320px;
+            height: 528px;
+            background-color: white;
+            margin-right: 64px;
+            margin-top: 76px;
+            
+        }
+        .rectblanc3 {
+            width: 320px;
+            height: 528px;
+            background-color: white;
+            margin-top: 76px;
+            
+        }
+
+        h3 {
+            margin-top: 253px;
+            text-align: justify;
+            margin-left: 32px;
+
+        }
+
+        p {
+            margin-left: 32px;
+            padding-bottom: 32px;
+        }
+
+        .btn {
+            .boutonvert();
+            margin-left: 32px;
+            
+            
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 428px) {
+    .menu {
+        width: 428px;
+        
+    }
+
+    .conteneur {
+        width: 428px;
+    }
+
+    
+}
+
+
+
